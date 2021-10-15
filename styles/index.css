@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;300;600&display=swap");
+.video__block {
+  background-position: center;
+  background-size: revert;
+  background-repeat: no-repeat;
+}
 
+.video__block .video__items .video__content .bottom {
+  background: red;
+  margin: 0 auto;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.video__block .video__items .video__content .bottom a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  font-family: "Exo", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.video__block {
+  height: 815px;
+}
+.video__block .video__items {
+  padding-top: 130px;
+  text-align: center;
+}
+.video__block .video__items .video__content {
+  padding-top: 85px;
+}
+.video__block .video__items .video__content h1 {
+  max-width: 815px;
+  margin: 0 auto 45px;
+  font-weight: 100;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.video__block .video__items .video__content img {
+  opacity: 0.6;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.video__block .video__items .video__content img:hover {
+  opacity: 0.8;
+}
+.video__block .video__items .video__content .bottom {
+  opacity: 0.6;
+  max-width: 200px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+.video__block .video__items .video__content .bottom:hover {
+  opacity: 0.8;
+}
+.video__block .video__items .video__content p {
+  font-size: 14px;
+  opacity: 0.6;
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,6 @@
+@mixin btn($op, $mxw, $pdg){
+  @extend %bottom;
+  opacity: $op;
+  max-width: $mxw;
+  padding: $pdg;
+}

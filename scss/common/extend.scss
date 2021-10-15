@@ -1,0 +1,19 @@
+%style-bg-img{
+  background-position: center;
+  background-size: revert;
+  background-repeat: no-repeat;
+}
+
+%bottom{
+  background: red;
+  margin: 0 auto;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: $transition;
+}
+
+%bottom-a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+}

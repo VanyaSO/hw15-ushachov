@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="hw12-ushachov" />
+    <orderEntry type="module" module-name="les-15" />
   </component>
 </module>
