@@ -1,11 +1,10 @@
 %style-bg-img{
-  background-position: center;
   background-size: revert;
   background-repeat: no-repeat;
 }
 
 %bottom{
-  background: red;
+  background: $color-site;
   margin: 0 auto;
   border-radius: 3px;
   cursor: pointer;
@@ -16,4 +15,21 @@
   text-transform: uppercase;
   text-decoration: none;
   color:white;
+}
+
+%small-title{
+  font-size: $font-size-lg;
+  text-transform: uppercase;
+  color: $color-site;
+  font-weight: bold;
+}
+
+%h3{
+  font-size: $font-size-xl;
+  font-weight: 600;
+}
+
+%center{
+  display: flex;
+  align-items: center;
 }

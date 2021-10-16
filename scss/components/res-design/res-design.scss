@@ -1,0 +1,13 @@
+.res-design__block{
+  background-image: url("./../images/res-design-bg.png");
+  background-size: 40% 100%;
+  min-height: 550px;
+  @include bgimg(left);
+  @extend %center;
+  .res-design-content{
+    @include b-s-tittle( 450px, black, 45px, left);
+    p{
+      width: 570px;
+    }
+  }
+}

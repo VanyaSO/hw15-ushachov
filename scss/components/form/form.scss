@@ -1,0 +1,50 @@
+.form{
+  @extend %center;
+  background-color: #323969;
+  min-height: 465px;
+  text-align: center;
+  .form__tittle{
+    @include b-s-tittle( 100%, white, 38px, center);
+  }
+  .free__trial{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    img{
+      margin-bottom: 18px;
+    }
+    p{
+      color: white;
+      font-weight: normal;
+    }
+  }
+  .form__content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    input{
+      padding: 18px 29px;
+      background-color: #464c77;
+      width: 263px;
+      border: none;
+      color: white;
+      border-radius: 2px;
+      &::placeholder {
+        color: white;
+      }
+    }
+    .button__form{
+      @include btn(1, 263px, 18px 29px);
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      cursor: pointer;
+      a{
+        @extend %bottom-a;
+      }
+    }
+  }
+  a{
+    color: #6e6e6d;
+  }
+}

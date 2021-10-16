@@ -1,0 +1,16 @@
+.features-img__block{
+  @extend %center;
+  background-color: #f6f5f3;
+    .features-img__tittle{
+      @include b-s-tittle( 100%, black, 50px, center);
+      padding: 115px 0 70px;
+      p{
+        width: 680px;
+        margin: 0 auto;
+      }
+    }
+  .img{
+    display: flex;
+    justify-content: center;
+  }
+}

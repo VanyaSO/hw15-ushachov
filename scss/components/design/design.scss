@@ -1,0 +1,16 @@
+.article-design__block{
+  background-image: url("./../images/design-bg-right.png");
+  background-size: 40% 100%;
+  min-height: 700px;
+  @include bgimg(right);
+  @extend %center;
+  .article__items{
+    .article-design{
+      width: 60%;
+      @include b-s-tittle( 510px, black, 45px, left);
+      p{
+        width: 570px;
+      }
+    }
+  }
+}

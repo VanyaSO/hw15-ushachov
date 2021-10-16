@@ -1,0 +1,38 @@
+.clients__block{
+  background-image: url("./../images/clients-bg.png");
+  background-size:100%;
+  min-height: 650px;
+  @include bgimg(center);
+  text-align: center;
+  @extend %center;
+  justify-content: space-around;
+  .clients-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .photo-fon{
+      margin-bottom: 25px;
+      background-color:#4e4e5e;
+      width: 75px;
+      height: 75px;
+    }
+    p{
+      width: 330px;
+    }
+    .clients-name{
+      color: white;
+      font-size: $font-size-md;
+      margin: 0;
+    }
+    .clients-tittle{
+      color: $color-site;
+      font-size: $font-size-lg;
+    }
+  }
+  .clients-logos{
+    margin-top:95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

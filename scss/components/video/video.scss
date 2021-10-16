@@ -1,11 +1,13 @@
 .video__block{
-  @extend %style-bg-img;
-  height: 815px;
+  @include bgimg(center);
+  height: 100vh;
+  min-height: 800px;
+  background-image: url("./../images/video-bg.png");
+  background-attachment: fixed;
+  @extend %center;
   .video__items{
-    padding-top: 130px;
     text-align: center;
     .video__content{
-      padding-top: 85px;
       h1{
         max-width: 815px;
         margin: 0 auto 45px;
@@ -22,7 +24,7 @@
           opacity: .8;
         }
       }
-      .bottom{
+      .button{
         @include btn(.6 , 200px, 20px 50px);
         margin-bottom: 20px;
         &:hover{

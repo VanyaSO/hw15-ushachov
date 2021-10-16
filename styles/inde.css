@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;300;600&display=swap");
-.footer__block, .clients__block, .res-design__block, .features__block, .article-design__block, .video__block {
+.clients__block, .res-design__block, .features__block, .article-design__block, .video__block {
   background-size: revert;
   background-repeat: no-repeat;
 }
 
-.footer__block .newsletter .massage .button__footer, .form .form__content .button__form, .video__block .video__items .video__content .button {
-  background: #fb8686;
+.form .form__content .button__form, .video__block .video__items .video__content .button {
+  background: red;
   margin: 0 auto;
   border-radius: 3px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.footer__block .newsletter .massage .button__footer a, .form .form__content .button__form a, .video__block .video__items .video__content .button a {
+.form .form__content .button__form a, .video__block .video__items .video__content .button a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -30,7 +30,7 @@
   font-weight: 600;
 }
 
-.footer__block, .form, .features-img__block, .clients__block, .res-design__block, .features__block, .article-design__block, .video__block {
+.form, .features-img__block, .clients__block, .res-design__block, .features__block, .article-design__block, .video__block {
   display: flex;
   align-items: center;
 }
@@ -226,7 +226,6 @@ p {
 .form {
   background-color: #323969;
   min-height: 465px;
-  text-align: center;
 }
 .form .form__tittle {
   text-align: center;
@@ -234,7 +233,7 @@ p {
 .form .form__tittle h3:nth-child(2) {
   width: 100%;
   color: white;
-  margin-bottom: 38px;
+  margin-bottom: 95px;
 }
 .form .form__tittle h3:nth-child(2) span {
   color: #fb8686;
@@ -242,19 +241,10 @@ p {
 .form .free__trial {
   display: flex;
   justify-content: flex-end;
-  margin-right: 30px;
-}
-.form .free__trial img {
-  margin-bottom: 18px;
-}
-.form .free__trial p {
-  color: white;
-  font-weight: normal;
 }
 .form .form__content {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
 }
 .form .form__content input {
   padding: 18px 29px;
@@ -276,52 +266,5 @@ p {
   text-align: center;
   cursor: pointer;
 }
-.form a {
-  color: #6e6e6d;
-}
 
-.footer__block {
-  background-image: url("./../images/footer-bg.png");
-  background-size: 25% 100%;
-  min-height: 330px;
-  background-position: right;
-}
-.footer__block .row {
-  width: 85%;
-}
-.footer__block h3 {
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-.footer__block p {
-  font-weight: normal;
-  margin-bottom: 15px;
-}
-.footer__block .start img {
-  margin-bottom: 15px;
-}
-.footer__block .newsletter .massage {
-  margin-bottom: 15px;
-  display: flex;
-}
-.footer__block .newsletter .massage input {
-  padding: 15px 30px;
-  background-color: #f6f6f6;
-  border: none;
-  border-radius: 2px;
-}
-.footer__block .newsletter .massage .button__footer {
-  opacity: 1;
-  max-width: 50px;
-  padding: 15px 15px;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  cursor: pointer;
-}
-.footer__block .newsletter .footer__img {
-  display: flex;
-  justify-content: center;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=inde.css.map */
