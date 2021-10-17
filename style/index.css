@@ -286,12 +286,6 @@ p {
   min-height: 330px;
   background-position: right;
 }
-.footer__block .col-2,
-.footer__block .col-4,
-.footer__block .col-3 {
-  margin: 0;
-  padding: 0;
-}
 .footer__block h3 {
   font-weight: 600;
   margin-bottom: 25px;
@@ -302,9 +296,6 @@ p {
 }
 .footer__block .start img {
   margin-bottom: 15px;
-}
-.footer__block .start p {
-  max-width: 260px;
 }
 .footer__block .newsletter .massage {
   margin-bottom: 15px;
