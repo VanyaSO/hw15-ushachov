@@ -1,4 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;300;600&display=swap");
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/exo/Exo-ThinItalic.eot");
+  src: local("Exo Thin Italic"), local("Exo-ThinItalic"), url("./../fonts/exo/Exo-ThinItalic.eot?#iefix") format("embedded-opentype"), url("./../fonts/exo/Exo-ThinItalic.woff2") format("woff2"), url("./../fonts/exo/Exo-ThinItalic.woff") format("woff"), url("./../fonts/exo/Exo-ThinItalic.ttf") format("truetype"), url("./../fonts/exo/Exo-ThinItalic.svg#Exo-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/exo/Exo-Thin.eot");
+  src: local("Exo Thin"), local("Exo-Thin"), url("./../fonts/exo/Exo-Thin.eot?#iefix") format("embedded-opentype"), url("./../fonts/exo/Exo-Thin.woff2") format("woff2"), url("./../fonts/exo/Exo-Thin.woff") format("woff"), url("./../fonts/exo/Exo-Thin.ttf") format("truetype"), url("./../fonts/exo/Exo-Thin.svg#Exo-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/exo/Exo-Bold.eot");
+  src: local("Exo Bold"), local("Exo-Bold"), url("./../fonts/exo/Exo-Bold.eot?#iefix") format("embedded-opentype"), url("./../fonts/exo/Exo-Bold.woff2") format("woff2"), url("./../fonts/exo/Exo-Bold.woff") format("woff"), url("./../fonts/exo/Exo-Bold.ttf") format("truetype"), url("./../fonts/exo/Exo-Bold.svg#Exo-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 .footer__block, .clients__block, .res-design__block, .features__block, .article-design__block, .video__block {
   background-size: revert;
   background-repeat: no-repeat;
