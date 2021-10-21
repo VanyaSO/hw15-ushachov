@@ -1,5 +1,5 @@
 .clients__block{
-  background-image: url("./../images/clients-bg.png");
+  background-image: url("./../../../images/clients-bg.png");
   background-size:100%;
   min-height: 650px;
   @include bgimg(center);
@@ -34,5 +34,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    img{
+      max-width: 80px;
+    }
   }
 }

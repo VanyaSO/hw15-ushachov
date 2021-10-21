@@ -1,9 +1,14 @@
 .res-design__block{
-  background-image: url("./../images/res-design-bg.png");
+  background-image: url("./../../../images/description-bg.png");
   background-size: 40% 100%;
   min-height: 550px;
   @include bgimg(left);
   @extend %center;
+  position: relative;
+  .res-design-img{
+    position: absolute;
+    left: 75px;
+  }
   .res-design-content{
     @include b-s-tittle( 450px, black, 45px, left);
     p{

@@ -2,6 +2,9 @@
   font-family: 'Exo', sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+}
 .container{
   max-width: $container-width;
   margin: 0 auto;

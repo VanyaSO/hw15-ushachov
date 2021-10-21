@@ -2,7 +2,7 @@
   @include bgimg(center);
   height: 100vh;
   min-height: 800px;
-  background-image: url("./../images/video-bg.png");
+  background-image: url("./../../../images/video-bg.png");
   background-attachment: fixed;
   @extend %center;
   .video__items{
