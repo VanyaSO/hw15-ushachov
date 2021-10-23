@@ -1,0 +1,29 @@
+@media  (max-width: 840px){
+  .features-img__block{
+    .img{
+      img{
+        max-width: 650px;
+      }
+    }
+  }
+}
+
+@media  (max-width: 768px){
+  .features-img__block{
+    .img{
+      img{
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+@media  (max-width: 567px){
+  .features-img__block{
+    .img{
+      img{
+        display: none;
+      }
+    }
+  }
+}

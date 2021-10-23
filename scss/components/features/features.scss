@@ -1,13 +1,13 @@
 .features__block{
   background-image: url("./../images/features-bg.png");
-  background-size: 100%;
-  min-height: 670px;
   @extend %center;
   @include bgimg(center);
   .features__tittle{
+      padding: 138px 0 0;
       @include b-s-tittle( 100%, black, 95px, center);
     }
   .features-contant{
+    padding: 0 0 185px;
     text-align: center;
     img{
       margin-bottom: 30px;

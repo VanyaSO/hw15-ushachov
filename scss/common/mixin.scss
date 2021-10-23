@@ -10,13 +10,13 @@
   background-position: $bgp;
 }
 
-@mixin b-s-tittle($width,$color,$mg-bt,$text-align){
+@mixin b-s-tittle($max-width,$color,$mg-bt,$text-align){
   text-align: $text-align;
   .small-tittle{
     @extend %small-title;
   }
   h3:nth-child(2){
-    width: $width;
+    max-width: $max-width;
     @extend %h3;
     color:$color;
     margin-bottom:$mg-bt;

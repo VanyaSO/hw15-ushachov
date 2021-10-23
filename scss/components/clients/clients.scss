@@ -1,7 +1,5 @@
 .clients__block{
-  background-image: url("./../../../images/clients-bg.png");
-  background-size:100%;
-  min-height: 650px;
+  background-image: url("./../images/clients-bg.png");
   @include bgimg(center);
   text-align: center;
   @extend %center;
@@ -10,14 +8,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 110px 0 0;
+    flex-direction: column;
     .photo-fon{
-      margin-bottom: 25px;
       background-color:#4e4e5e;
       width: 75px;
       height: 75px;
-    }
-    p{
-      width: 330px;
+      margin: 0 auto 25px;
     }
     .clients-name{
       color: white;
@@ -34,6 +31,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 0 0 80px;
     img{
       max-width: 80px;
     }

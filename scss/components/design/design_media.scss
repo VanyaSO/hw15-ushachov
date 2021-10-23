@@ -1,0 +1,21 @@
+@media (max-width: 1067px){
+  .article-design__block .article__items .article-design h3:nth-child(2) {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px){
+  .article-design__block{
+    background-image: none;
+    .article__items .article-design {
+      text-align: center;
+      h3:nth-child(2){
+        max-width: none;
+        font-size: 28px;
+      }
+    }
+  }
+  .col-xl-6 {
+    margin: 0;
+  }
+}

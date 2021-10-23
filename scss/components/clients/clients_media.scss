@@ -1,0 +1,9 @@
+@media (max-width: 565px) {
+  .clients__block .clients-logos {
+    flex-direction: column;
+    img{
+      max-width: 80px;
+      margin-bottom: 80px;
+    }
+  }
+}

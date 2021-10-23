@@ -1,10 +1,11 @@
-.form{
+.forma{
   @extend %center;
   background-color: #323969;
-  min-height: 465px;
   text-align: center;
-  .form__tittle{
+  padding-bottom: 85px;
+  .forma__tittle{
     @include b-s-tittle( 100%, white, 38px, center);
+    padding-top: 100px;
   }
   .free__trial{
     display: flex;
@@ -18,14 +19,15 @@
       font-weight: normal;
     }
   }
-  .form__content{
+  .forma__content{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
+    width: 100%;
     input{
       padding: 18px 29px;
       background-color: #464c77;
-      width: 263px;
+      width: 100%;
       border: none;
       color: white;
       border-radius: 2px;
@@ -33,15 +35,18 @@
         color: white;
       }
     }
-    .button__form{
-      @include btn(1, 263px, 18px 29px);
+    .button__forma{
       width: 100%;
-      margin: 0;
-      text-align: center;
-      cursor: pointer;
-      a{
-        @extend %bottom-a;
-      }
+        button {
+          @extend %bottom-a;
+          @include btn(1, none, 18px 29px);
+          width: 100%;
+          margin: 0;
+          text-align: center;
+          cursor: pointer;
+          border: none;
+          display: inline-block;
+        }
     }
   }
   a{

@@ -1,0 +1,26 @@
+@media (max-width: 1150px) {
+  .footer__block {
+    background-image: none;
+    .row{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer__block{
+    .row{
+      .colon-newsletter{
+        display: flex;
+        justify-content: center;
+      }
+      }
+    }
+  }
+
+@media (max-width: 576px) {
+  .footer__block {
+    display: none;
+  }
+}
