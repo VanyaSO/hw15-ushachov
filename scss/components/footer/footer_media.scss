@@ -21,6 +21,13 @@
 
 @media (max-width: 576px) {
   .footer__block {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    .row{
+      .colon-newsletter{
+        display: flex;
+        justify-content: left;
+      }
+    }
   }
 }

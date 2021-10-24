@@ -255,6 +255,23 @@ p {
     max-width: 300px;
   }
 }
+@media (max-width: 768px) {
+  .res-design__block {
+    background-image: none;
+  }
+  .res-design__block .row {
+    text-align: center;
+  }
+  .res-design__block .row .res-design-content {
+    text-align: center;
+  }
+  .res-design__block .row .res-design-content h3:nth-child(2) {
+    max-width: none;
+  }
+  .res-design__block .row .colon-img img {
+    max-width: 300px;
+  }
+}
 .clients__block {
   background-image: url("./../images/clients-bg.png");
   background-position: center;
@@ -471,7 +488,12 @@ p {
 }
 @media (max-width: 576px) {
   .footer__block {
-    display: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__block .row .colon-newsletter {
+    display: flex;
+    justify-content: left;
   }
 }
 
