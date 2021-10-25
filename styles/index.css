@@ -138,13 +138,16 @@ p {
   }
 }
 @media (max-width: 576px) {
-  .col-xl-3 {
+  .video__block .video__items .video__content h1 {
+    font-size: 48px;
+  }
+  .video__block .video__items .video__content .col-xl-3 {
     margin: 0 auto;
   }
 }
 @media (max-width: 400px) {
   .video__block .video__items .video__content h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 }
 .article-design__block {
@@ -269,7 +272,7 @@ p {
     max-width: none;
   }
   .res-design__block .row .colon-img img {
-    max-width: 300px;
+    display: none;
   }
 }
 .clients__block {
@@ -460,7 +463,7 @@ p {
 }
 .footer__block .row .newsletter .massage .button__footer {
   opacity: 1;
-  max-width: 50px;
+  max-width: none;
   padding: 15px 15px;
   width: 100%;
   margin: 0;

@@ -17,13 +17,22 @@
 }
 
 @media (max-width :576px){
-  .col-xl-3 {
-    margin: 0 auto;
+  .video__block{
+    .video__items{
+      .video__content{
+        h1{
+          font-size: 48px;
+        }
+        .col-xl-3 {
+          margin: 0 auto;
+        }
+      }
+    }
   }
 }
 
 @media (max-width :400px){
   .video__block .video__items .video__content h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 }

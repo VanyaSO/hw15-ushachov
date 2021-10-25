@@ -36,7 +36,7 @@
           border-radius: 2px;
         }
         .button__footer{
-          @include btn(1, 50px, 15px 15px);
+          @include btn(1, none, 15px 15px);
           width: 100%;
           margin: 0;
           text-align: center;
